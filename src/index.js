@@ -7,7 +7,7 @@ import { Amplify } from "aws-amplify";
 
 Amplify.configure({
   aws_appsync_graphqlEndpoint:
-    "https://d3vk0yq59m63mi.cloudfront.net/api/graphql",
+    "https://main.d3v10nlgoyp7gu.amplifyapp.com//api/graphql",
   aws_appsync_region: "us-east-1",
   aws_appsync_authenticationType: "API_KEY",
   aws_appsync_apiKey: "da2-bfaj7t3x3jbehmwd4cljyrx2ji",
