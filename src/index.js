@@ -6,8 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { Amplify } from "aws-amplify";
 
 Amplify.configure({
-  aws_appsync_graphqlEndpoint: "https://api-west.amaktala.com/graphql",
-  aws_appsync_region: "us-west-1",
+  aws_appsync_graphqlEndpoint: "https://api-east.amaktala.com/graphql",
+  aws_appsync_region: "us-east-1",
   aws_appsync_authenticationType: "API_KEY",
   aws_appsync_apiKey: "da2-bfaj7t3x3jbehmwd4cljyrx2ji",
 });
