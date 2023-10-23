@@ -57,7 +57,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div>
+      {/* <div>
         <h1>Live chat</h1>
         <input
           type="text"
@@ -70,7 +70,7 @@ function App() {
             <li>{message}</li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
